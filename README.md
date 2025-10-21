@@ -1,7 +1,5 @@
 # CHiLD
 
-CHiLD (Causal Hierarchical Latent Dynamics) is a reworked version of the IDOL framework for learning hierarchical latent-variable models with instantaneous and temporal causal structure. The repository contains tooling to synthesise datasets, train Lightning modules, and log experiments with Weights & Biases (W&B).
-
 ## Quick Start
 
 ```bash
