@@ -1,0 +1,51 @@
+
+# Large files and datasets
+*.zip
+*.tar.gz
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Logs and outputs
+scripts/wandb/
+scripts/log/
+scripts/CHILD/
+*.log
+nohup.out
+*.out
+wandb/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data directories
+datasets/
+IDOL/datasets/dataset3/
+data/
+CHILD/*/
+
+# Environment files
+.env
+environment.yml
+requirements.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+*.DS_Store
+Thumbs.db
+
+# Large installers
+*.sh
+

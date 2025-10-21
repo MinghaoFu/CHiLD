@@ -1,0 +1,46 @@
+#########################
+# Model Configurations  # 4-4-4 same dim
+#########################
+
+LOG: '../log'
+DATASET: 'E'
+
+WANDB:
+    ENTITY: 'minghao_workaholic'
+    PROJ_NAME: 'child'
+    LOG_NAME: 'new_E_dim12'
+  
+VAE:
+    CPU: 8
+    GPU: 1
+    TRAIN_BS: 64
+    VAL_BS: 1024
+    EPOCHS: 2
+    N_VAL_SAMPLES: 1024
+    NCLASS: 15
+    EMBED_DIM: 2
+    LAG: 1
+    LR: 1.0e-4
+    BETA: 3.0e-3
+    GAMMA: 1.0e-2
+    THETA: 1.0e-4
+    # THETA: 0.0
+    INPUT_DIM: 4
+    LATENT_DIM: 8
+    LATENT_DIM_FIX: 8
+    LATENT_DIM_CHANGE: 0
+    Z_DIM_LIST: [4, 4]
+    BIAS: FALSE
+    N_MEA: 3
+    ENC:
+        HIDDEN_DIM: 128
+    DEC:
+        HIDDEN_DIM: 128
+        DIST: 'gaussian'
+    PIN: TRUE
+    FLEXIBLE_SPARTSITY:
+        ENABLE: FALSE
+
+MCC:
+    FREQ: 0.2
+    CORR: 'Spearman' #'Pearson' # 'Spearman'

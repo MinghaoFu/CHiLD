@@ -1,0 +1,10 @@
+wandb>=0.16.0
+lightning>=2.0.0
+torch<4.0,>=1.11.0
+disentanglement-lib>=1.4
+torchvision
+torchaudio
+h5py
+ipdb
+opencv-python
+pymunk
