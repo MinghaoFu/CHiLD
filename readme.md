@@ -1,8 +1,14 @@
-# CHiLD: Towards Identifiability of Hierarchical Temporal Causal Representation Learning (NIPS-2025)
+# CHiLD: [Towards Identifiability of Hierarchical Temporal Causal Representation Learning](https://arxiv.org/abs/2510.18310) (Neurips 2025)
+
+[Zijian Li](https://scholar.google.com/citations?user=j3ilESoAAAAJ)<sup>1,2,\*</sup>, [Minghao Fu](https://minghaofu.github.io/)<sup>4,2,\*</sup>, Junxian Huang<sup>3</sup>, [Yifan Shen](https://sanshuiii.github.io/about/)<sup>2</sup>, [Ruichu Cai](https://ruichucai.github.io/)<sup>3</sup>, [Yuewen Sun](https://yuewen-sun.github.io/)<sup>1,2</sup>, [Guangyi Chen](https://chengy12.github.io/)<sup>1,2</sup>, [Kun Zhang](https://www.andrew.cmu.edu/user/kunz1/)<sup>1,2</sup> 
+
+<sup>1</sup> Carnegie Mellon University  <sup>2</sup> Mohamed bin Zayed University of Artificial Intelligence  <sup>3</sup> Guangdong University of Technology  <sup>4</sup> University of California, San Diego  
 
 ![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg?style=plastic)
 ![PyTorch 2.4.1](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?style=plastic)
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
+
+
 
 ## Motivation
 
